@@ -130,3 +130,29 @@ span.sustainability2 {
     width: 5rem;
     height: 1rem;
 }
+
+
+footer {
+    background-color: #1c1b1c;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.info {
+    color: white;
+    flex-basis: 100%;
+    font-size: .8rem;
+    margin-right: 33rem;
+
+}
+
+div.other {
+    color: white;
+    flex-basis: 100%;
+    font-size: .8rem;
+
+
+}
