@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+nav {
+    background-color: orange;
+    border: 1px solid black;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.h-left {
+    padding: 1rem;
+    flex-basis: 15%;
+    justify-content: center;
+}
+
+.logo-box {
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 2.5rem;
+    width: 12rem;
+    
+
+}
+
+.h-right {
+    flex-basis: 15%;
+    justify-content: center;
+
+}
