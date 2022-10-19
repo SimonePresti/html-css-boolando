@@ -12,6 +12,8 @@ body {
     display: flex;
 }
 
+
+
 .p-relative {
     position: relative;
 }
@@ -24,8 +26,12 @@ body {
 nav {
     background-color: darkorange;
     height: 3.5rem;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+
   
 
 }
@@ -37,13 +43,18 @@ nav {
 
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
 div.link {
     color: white;
     text-decoration: none;
 }
 
 .logo-box {
-    flex-basis: 40%;
+    flex-basis: 33%;
     align-items: center;
     justify-content: center;
 }
@@ -69,7 +80,8 @@ section.row-products {
 
 article.product {
     display: inline-block;
-    padding: 2rem;
+    padding: 1.5rem;
+    margin-top: 4rem;
     
     
 }
@@ -145,7 +157,7 @@ div.info {
     color: white;
     flex-basis: 100%;
     font-size: .8rem;
-    margin-right: 33rem;
+    margin-right: 31rem;
 
 }
 
@@ -156,3 +168,4 @@ div.other {
 
 
 }
+
