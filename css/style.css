@@ -32,13 +32,18 @@ nav {
 
 .h-left {
     padding: 1rem;
-    flex-basis: 15%;
+    flex-basis: 14%;
     justify-content: center;
+
+}
+
+div.link {
+    color: white;
     text-decoration: none;
 }
 
 .logo-box {
-    flex-basis: 50%;
+    flex-basis: 40%;
     align-items: center;
     justify-content: center;
 }
@@ -51,8 +56,8 @@ nav {
 }
 
 .h-right {
-    flex-basis: 15%;
-    justify-content: center;
+    flex-basis: 14%;
+    justify-content: flex-end;
 
 }
 
@@ -113,4 +118,15 @@ p.price1 {
 
 span.price2 {
     text-decoration: line-through;
+}
+
+span.sustainability2 {
+    background-color: green;
+    font-size: 0.8rem;
+    text-align: center;
+    top: 24rem;
+    left: 2rem;
+    color: white;
+    width: 5rem;
+    height: 1rem;
 }
