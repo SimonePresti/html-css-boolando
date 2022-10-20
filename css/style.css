@@ -169,6 +169,15 @@ div.other {
 
 }
 
-article.product:hover #photo1 {
-    background-image: url(../img/1b.webp);
+.product:hover #photo1a {
+    display: none;
 }
+
+.product #photo1b {
+    display: none;
+}
+
+.product:hover #photo1b {
+    display: inline-block;
+}
+
